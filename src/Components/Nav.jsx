@@ -2,6 +2,7 @@ import React from 'react'
 import Button from './Button'
 import logo from "../assets/logo.png"
 import { Link } from 'react-router-dom';
+import Dropdown from '../Components/Dropdown';
 
 
 function Nav() {
@@ -29,7 +30,7 @@ function Nav() {
           </nav>
           </div>
           <div className='flex gap-4 mr-5'>
-            <Link to='/signup'><Button  text="Sign up"/></Link>
+            <Button  text="Sign up" className="bg-[#053157]"/> <Dropdown/>
             <Link to="/Login"><Button text="Login "/></Link>
           </div>
       </div>
