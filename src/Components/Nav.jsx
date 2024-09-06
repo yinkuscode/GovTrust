@@ -14,20 +14,23 @@ function Nav() {
             <nav>
         <ul className="flex space-x-4">
         <li>
-          <a href="/" className="text-white hover:text-blue-400">Home</a>
+          <Link to="/" className="text-black hover:text-blue-400">Home</Link>
         </li>
         <li>
-          <a href="/about" className="text-white hover:text-blue-400">About</a>
+          <Link to="/uploadata" className="text-black hover:text-blue-400">Upload data</Link>
         </li>
         <li>
-          <a href="/contains" className="text-white hover:text-blue-400">Contact</a>
+          <Link to="/blogs" className="text-black hover:text-blue-400">Blog</Link>
+        </li>
+        <li>
+          <Link to="/contains" className="text-black hover:text-blue-400">Contact Us</Link>
         </li>
       </ul>
           </nav>
           </div>
           <div className='flex gap-4 mr-5'>
-            <Button  text="Sign up"/>
-            <Button text="Login "/>
+            <Link to='/signup'><Button  text="Sign up"/></Link>
+            <Link to="/Login"><Button text="Login "/></Link>
           </div>
       </div>
   )
