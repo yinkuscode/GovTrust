@@ -17,14 +17,14 @@ function Blog() {
         </div>
       <div className='bg-[#6C71AA] mx-5 rounded'>
           <img src={image2} alt="" />
-          <h1 className='text-xl mt-5 mb-5'>Govtrust Report: Impact Stories</h1>
-          <p className='text-normal text-[#333333] mb-5'> Read inspiring stories from the field that showcase the difference we’re making in children’s lives. Discover how our programs are transforming communities and giving hope to families.</p>
+          <h1 className='text-xl mt-5 mb-5 ml-5'>Govtrust Report: Impact Stories</h1>
+          <p className='text-normal text-[#333333] mb-5 ml-5'> Read inspiring stories from the field that showcase the difference we’re making in children’s lives. Discover how our programs are transforming communities and giving hope to families.</p>
           <Button text="More Information" className=""/>
       </div>
       <div className='bg-[#6C71AA] mx-5 rounded'>
           <img src={image3} alt="" />
-          <h1 className='text-xl mt-5 mb-5'>GovTrust Report: Policy Updates</h1>
-          <p className='text-normal text-[#333333] mb-5'>  Learn about the latest policy changes and government actions that impact education in Nigeria. </p>
+          <h1 className='text-xl mt-5 mb-5 ml-5'>GovTrust Report: Policy Updates</h1>
+          <p className='text-normal text-[#333333] mb-5 ml-5'>  Learn about the latest policy changes and government actions that impact education in Nigeria. </p>
           <Button text="More Information"/>
       </div>
       </div>

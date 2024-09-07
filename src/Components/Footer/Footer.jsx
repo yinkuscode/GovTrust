@@ -11,35 +11,43 @@ function Footer() {
         <div className='flex justify-between items-center text-center mt-20 text-base font-normal text-[#333333]'>
             <div className='leading-8'>
             <h1 className='text-[#000000] font-bold'>COMPANY</h1>
-            <p>About Govtrust</p>
-            <p>Trust</p>
-            <p>Contact</p>
-            <p>Help & FAQ</p>
-            <p>Govtrust R</p>
+            <ul>
+                <li><a href="">About Govtrust</a></li>
+                <li><a href="">Trust</a></li>
+                <li><a href="/contains">Contact</a></li>
+                <li><a href="">Help & FAQ</a></li>
+                <li><a href="">Govtrust</a></li>
+            </ul>
         </div>
         <div className='leading-8'>
             <h1 className='text-[#000000] font-bold'>PLATFORM</h1>
-            <p>First Step</p>
-            <p>Govtrust Database</p>
-            <p>Our Resources</p>
-            <p>Success Stories</p>
+            <ul>
+                <li><a href="">First Step</a></li>
+                <li><a href="">Govtrust Database</a></li>
+                <li><a href="">Our Resources</a></li>
+                <li><a href="">Success Stories</a></li>
+            </ul>
         </div>
         <div className='leading-8'>
             <h1 className='text-[#000000] font-bold'>PRODUCT</h1>
-            <p>Accurate Data Collection</p>
-            <p>Sponsorship Matching Platform</p>
-            <p>Resource Allocation Insights</p>
-            <p>Community Empowerment</p>
+            <ul>
+                <li><a href="">Accurate Data Collection</a></li>
+                <li><a href="">Sponsorship Matching Platform</a></li>
+                <li><a href="">Resource Allocation Insights</a></li>
+                <li><a href="">Community Empowerment</a></li>
+            </ul>
         </div>
         <div className='leading-8'>
             <h1 className='text-[#000000] font-bold'>MEDIA /LIBRARY</h1>
-            <p>Photos</p>
-            <p>Videos</p>
-            <p>Press Releases</p>
-            <p>Infographics and Reports</p>
+            <ul>
+               <li><a href="">Photos</a></li>
+               <li><a href="">Videos</a></li>
+               <li><a href="">Press Releases</a></li>
+               <li><a href="">Infographics and Reports</a></li>
+            </ul>
         </div>
         </div>
-        <div className='flex gap-x-96 mt-7 mb-4'>
+        <div className='flex gap-x-24 mt-7 mb-4'>
             <div>
                 <h1 className='text-[#000000] font-bold'>Follow Us</h1>
             </div>
