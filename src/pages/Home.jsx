@@ -17,13 +17,13 @@ function Home() {
       <Header />
       <Hero/>
       <Sec1 />
+      <Submit />
       <Sec2 />
       <Sec3 />
-      <Sec4 />
-      <Submit />
       <Illiteracy />
       <Blog />
       <Contact />
+      <Sec4 />
       <Footer />
     </div>
   );

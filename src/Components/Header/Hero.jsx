@@ -11,8 +11,8 @@ function Hero() {
         </div>
         <div className='pt-20 absolute inset-y-0 left-10  text-[#FFFFFF] w-656 flex flex-col
         justify-center h-screen '>
-            <h1 className='pb-5  text-5xl font-semibold'>Transforming Education with data and the power of  communities </h1>
-            <p className='pb-5 text-xl font-light '>Centralised education data system and crowdsourcing platfrom</p>
+            <h1 className='pb-5  text-5xl font-semibold'>Transforming Education With Data And The Power Of  Communities </h1>
+            <p className='pb-5 text-xl font-light '>Centralised education data system and crowdsourcing platform</p>
             <Button text="Get Involved"/>
         </div>
     </div>

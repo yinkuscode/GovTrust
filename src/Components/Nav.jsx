@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
-      <div className='mx-4 flex text-center items-center justify-between bg-[#FFFFFF] '>
+      <div className='mx-4 flex text-center items-center justify-between bg-[#FFFFFF]'>
           <div>
               <img src={logo} alt=""  />
           </div>
