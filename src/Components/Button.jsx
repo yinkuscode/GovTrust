@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
-function Button(props) {
+const Button = ({ className, text }) => {
   return (
-    <div>
-        <button className='focus:outline-none text-[#FFFFFF] bg-[#053157] px-6 py-2 text-sm'>{props.text}</button>
-    </div>
-  )
-}
+    <>
+      <button
+        className={`${className} focus:outline-none text-[#FFFFFF] bg-[#053157] px-6 py-2 text-sm`}
+      >
+        {text}
+      </button>
+    </>
+  );
+};
 
-export default Button
+export default Button;

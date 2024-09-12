@@ -37,7 +37,7 @@ function Sec3() {
                 outdated curriculums, overcrowded classrooms, and insufficient
                 funding.
               </p>
-              <Button text="Learn more" />
+              <Button text="Learn more" className="w-32 h-10" />
             </div>
           </div>
           </Marquee>

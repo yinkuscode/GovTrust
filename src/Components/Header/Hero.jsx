@@ -13,7 +13,7 @@ function Hero() {
         justify-center h-screen '>
             <h1 className='pb-5  text-5xl font-semibold'>Transforming Education With Data And The Power Of  Communities </h1>
             <p className='pb-5 text-xl font-light '>Centralised education data system and crowdsourcing platform</p>
-            <Button text="Get Involved"/>
+            <Button text="Get Involved" className='h-10 w-32'/>
         </div>
     </div>
 

@@ -6,6 +6,8 @@ import Contains from "./pages/Contains";
 import Home from "./pages/Home";
 import Uploadata from "./pages/Uploadata";
 import Blogs from "./pages/blogs";
+import Volunteer from "./pages/Volunteer";
+import Data from "./pages/Data";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/uploadata" element={<Uploadata />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path ="/volunteer" element={<Volunteer />} />
+          <Route path="/data" element={<Data />} />
         </Routes>
       </BrowserRouter>
     </>
