@@ -3,12 +3,11 @@ import image1 from "../../assets/image1.png"
 import image2 from "../../assets/image2.png"
 import image3 from "../../assets/image3.png"
 import Button from "../Button"
-import Header from "../Header/Header"
+
 
 function Blog() {
   return (
     <div className='mx-5 '>
-      <Header/>
       <h1 className='text-[#41478D] text-center mb-10 text-3xl text-bold'>Blog</h1>
       <div className='grid grid-cols-3'>
         <div className='bg-[#6C71AA] mx-5 rounded'>
