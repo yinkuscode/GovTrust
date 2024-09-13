@@ -2,7 +2,7 @@ import React from 'react'
 import twitter from '../../assets/twitter.png'
 import ing from '../../assets/ing.png'
 import facebook from '../../assets/facebook.png'
-import youtube from '../../assets/vector.png'
+import youtube from '../../assets/Vector.png'
 import c from '../../assets/cc.png'
 
 function Footer() {
