@@ -7,7 +7,9 @@ function Nav() {
   return (
     <div className="mx-4 flex text-center items-center justify-between bg-[#FFFFFF]">
       <div>
-        <img src={logo} alt="" />
+        <Link to="/">
+          <img src={logo} alt="" />
+        </Link>
       </div>
       <div>
         <nav>
@@ -37,22 +39,25 @@ function Nav() {
       </div>
       <div className="flex gap-4 mr-5">
         <div className="dropdown">
-            <Button text="Sign up" className="bg-[#053157]" />
+          <Button text="Sign up" className="bg-[#053157]" />
           <div className="dropdown-content">
             <ul>
               <li>
-              <a href="/signup">As a Sponsor</a>
+                <a href="/signup">As a Sponsor</a>
               </li>
               <li>
                 <a href="/volunteer">As a Volunteer</a>
               </li>
               <li>
-                <a href="">As a data giver</a>
+                <a href="/DataSubmission">Data Submission</a>
+              </li>
+              <li>
+                <a href="/ResearchCollaboration">Research collaboration</a>
               </li>
             </ul>
           </div>
         </div>
-        <Link to="/Login">
+        <Link to="/login">
           <Button
             text="Login"
             className="border-solid border-2 border-[#053157] bg-white text-black"

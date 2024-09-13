@@ -7,7 +7,10 @@ import Home from "./pages/Home";
 import Uploadata from "./pages/Uploadata";
 import Blogs from "./pages/blogs";
 import Volunteer from "./pages/Volunteer";
-import Data from "./pages/Data";
+import DataSubmission from "./pages/DataSubmission";
+import ResearchCollaboration from "./pages/ResearchCollaboration";
+import Login from "./pages/Login";
+import Donate from "./pages/Donate";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
           <Route path="/uploadata" element={<Uploadata />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path ="/volunteer" element={<Volunteer />} />
-          <Route path="/data" element={<Data />} />
+          <Route path="/DataSubmission" element={<DataSubmission />} />
+          <Route path="/ResearchCollaboration" element={<ResearchCollaboration />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/donate" element={<Donate />} />
         </Routes>
       </BrowserRouter>
     </>

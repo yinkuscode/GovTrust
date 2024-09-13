@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +18,30 @@ const Dropdown = () => {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-300 rounded shadow-lg">
-          <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Volunteer</a>
-          <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 2</a>
-          <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 3</a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+          >
+            Volunteer
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+          >
+            Upoloadata
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+          >
+            DataSubmission
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+          >
+            ResearchCollaboration
+          </a>
         </div>
       )}
     </div>

@@ -1,10 +1,11 @@
-import React from "react";
-import Header from "../Components/Header/Header";
+import React from 'react'
 import Button from "../Components/Button";
+import Header from '../Components/Header/Header';
+import { IoCloudUploadOutline } from "react-icons/io5";
 
-function Volunteer() {
+function DataSubmission() {
   return (
-    <div>
+    <div className=''>
       <div>
         <div>
           <Header />
@@ -13,11 +14,11 @@ function Volunteer() {
           Hello
         </h1>
         <p className="text-[#333333] mb-5 text-center">
-          To get started, please fill out the form below with your details.
+        To get started, please fill out the form below with your details..
         </p>
         <div className="flex justify-center">
-          <form action="Submit" className="">
-            <div className="flex gap-10 w-[]">
+          <form action="Submit" className="w-fit">
+            <div className="flex gap-10">
               <div>
                 <div class="mb-6">
                   <input
@@ -40,22 +41,6 @@ function Volunteer() {
                     type="text"
                     id="Interest"
                     placeholder="Area of Interest"
-                    class=" border border-black-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 placeholder-black  focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  />
-                </div>
-                <div class="mb-6">
-                  <input
-                    type="text"
-                    id="Availability"
-                    placeholder="Availability"
-                    class=" border border-black-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 placeholder-black  focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  />
-                </div>
-                <div class="mb-6">
-                  <input
-                    type="text"
-                    id="Preferred Roles"
-                    placeholder="Preferred Roles"
                     class=" border border-black-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 placeholder-black  focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   />
                 </div>
@@ -85,25 +70,26 @@ function Volunteer() {
                     class=" border border-black-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 placeholder-black  focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   />
                 </div>
-                <div class="mb-6">
-                  <input
-                    type="text"
-                    id="Location"
-                    placeholder="Location"
-                    class=" border border-black-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 placeholder-black  focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  />
-                </div>
-                <div class="mb-6">
-                  <input
-                    type="text"
-                    id="Skills and Interests"
-                    placeholder="Skills and Interests"
-                    class=" border border-black-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 placeholder-black  focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  />
-                </div>
               </div>
             </div>
-
+            <div class="mb-6">
+            <textarea
+              id="message"
+              rows="4"
+              class=" border border-black-300 text-black-900 text-sm rounded-lg focus:ring-blue-500 placeholder-black  focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Additional Comments or Notes"
+            ></textarea>
+          </div>
+          <div className="border border-dashed border-gray-300 rounded-md p-8 flex flex-col items-center justify-center">
+            <div className="text-blue-500 text-lg mb-2">
+              {/* <i className="fas fa-cloud-upload-alt mr-2"></i>  */}
+              <IoCloudUploadOutline className="ml-24" /> Drag & drop files and
+              Browse
+            </div>
+            <p className="text-gray-500 text-sm">
+              Supported formats: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT
+            </p>
+          </div>
             <div className="mt-6">
               <label className="flex items-center">
                 <input type="checkbox" className="mr-2" />
@@ -115,7 +101,7 @@ function Volunteer() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Volunteer;
+export default DataSubmission

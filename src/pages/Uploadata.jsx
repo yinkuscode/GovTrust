@@ -1,12 +1,15 @@
 import React from "react";
-import Logo from "../assets/logo.png";
+import logo from "../assets/logo.png";
 import Button from "../Components/Button";
 import { IoCloudUploadOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 function Uploadata() {
   return (
     <div className="">
-      <img src={Logo} alt="" />
+      <Link to="/">
+        <img src={logo} alt="" />
+      </Link>
       <h1 className="text-black-500 text-3xl mt-10 mb-5 text-center">Hello</h1>
       <p className="text-[#333333] mb-5 text-center">
         To get started please fill out the form below with your details
