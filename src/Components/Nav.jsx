@@ -43,16 +43,16 @@ function Nav() {
           <div className="dropdown-content">
             <ul>
               <li>
-                <a href="/signup">As a Sponsor</a>
+                <Link to="/signup">As a Sponsor</Link>
               </li>
               <li>
-                <a href="/volunteer">As a Volunteer</a>
+                <Link to="/volunteer">As a Volunteer</Link>
               </li>
               <li>
-                <a href="/DataSubmission">Data Submission</a>
+                <Link to="/DataSubmission">Data Submission</Link>
               </li>
               <li>
-                <a href="/ResearchCollaboration">Research collaboration</a>
+                <Link to="/ResearchCollaboration">Research collaboration</Link>
               </li>
             </ul>
           </div>
